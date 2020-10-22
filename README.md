@@ -1,9 +1,5 @@
 # roblox-UserAPI-to-JSON
 source that can get data of roblox users games and formats the data into a json file
-- commands:
-<code>
+## commands:
   - node httpRequestManager.js
-</code>
-<code>
   - python3 jsonParser.py
-</code>
