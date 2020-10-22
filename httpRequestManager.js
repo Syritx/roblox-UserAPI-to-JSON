@@ -15,10 +15,9 @@ function CreateFile(data) {
 }
 
 function GetRequest() {
-    let robloxId = GetRandomId()
     let request = new XMLHttpRequest();
 
-    request.open('GET', `https://games.roblox.com/v2/users/1087060347/games?sortOrder=Asc&limit=100`)
+    request.open('GET', `https://games.roblox.com/v2/users/${GetRandomId()}/games?sortOrder=Asc&limit=100`)
     request.setRequestHeader('Accept', 'application/json');
     request.send();
 
