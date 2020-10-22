@@ -2,6 +2,8 @@
 source that can get data of roblox users games and formats the data into a json file
 - commands:
 <code>
-  - node httpRequestManager.js\n
+  - node httpRequestManager.js
+</code>
+<code>
   - python3 jsonParser.py
 </code>
